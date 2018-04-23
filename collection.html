@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./node_modules/fullpage.js/dist/jquery.fullpage.css">
+    <link rel="stylesheet" href="./custom_modules/css/custom.css">
+
+    <title>Museum Mpu Purwa</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Museum Mpu Purwa</a>
+        <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">Tentang Kami</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Koleksi</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="collection.html?name=arca">Arca</a>
+                        <a class="dropdown-item" href="collection.html?name=topeng">Topen Malang</a>
+                        <a class="dropdown-item" href="collection.html?name=senjata">Keris & Senjata Tajam</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kunjungi Kami</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Pencarian">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cari</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+
+    <!-- content Pages -->
+    <div id="fullpage">
+
+        <!-- slider -->
+        <div class="section-fullpage fp-section fp-auto-height-responsive" id="section0">
+            <div class="slide" data-anchor="slide1">
+                <div class="content">
+                    <h1 id="title"></h1>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <img id="img-slideMain" class="img-thumbnail" alt="" style="width:100%; height:630px">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="col-md-12" style="margin-bottom: 15px">
+                                    <img src="./images/arca/arca-tokoh-pertapa.jpg" id="img-slide1" class="img-thumbnail" alt="" style="width:200px; height:200px">
+                                </div>
+                                <div class="col-md-12" style="margin-bottom: 15px">
+                                    <img src="./images/arca/arca-tokoh-pertapa1.jpg" id="img-slide2" class="img-thumbnail" alt="" style="width:200px; height:200px">
+                                </div>
+                                <div class="col-md-12" style="margin-bottom: 15px">
+                                    <img src="./images/arca/arca-tokoh-pertapa2.jpg" id="img-slide3" class="img-thumbnail" alt="" style="width:200px; height:200px">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="text-center">
+                                <h1>Arca Tokoh Pertapa</h1>
+                            </div>
+                            <div class="text-center description">
+                                <ul class="list-unstyled">
+                                    <li>Nama Benda : </li>
+                                    <li>Bahan :</li>
+                                    <li>Ukuran :</li>
+                                    <li>Asal :</li>
+                                </ul>
+                            </div>
+                        </div>
+                        </br>
+                        <div class="col-md-12" style="margin-bottom: 160px">
+                            <p class="description">Magni vitae harum magni quis. Deleniti ut aliquam assumenda est earum itaque nostrum dolor aut.
+                                Quas aut asperiores facilis magni qui et sit eos iste. Voluptatem nihil voluptate ipsum quibusdam
+                                eos magni rerum nam. Ex cum cum et dolore eos repellendus at.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="slide" data-anchor="slide2">Two 2</div>
+            <div class="slide" data-anchor="slide3">Two 3</div>
+            <!-- <div id="con-col"></div> -->
+        </div>
+        
+        <!-- other menu -->
+        <div class="section-fullpage fp-section">
+            Yolo
+        </div>
+        <div class="section-fullpage" id="con-col"></div>
+    </div>
+
+    <footer>
+        <div class="footer-middle">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <ul class="list-unstyled">
+                                <li>
+                                    Copyright Museum Mpu Purwa
+                                    <br> Link Terkait :
+                                    <br> Disbudpar Kota Malang
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <address>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        Jl. Soekarno Hatta
+                                        <br> Perumahan Griya Santa
+                                        <br> Blk. B No.210, Mojolangu
+                                        <br> Kec. Lowokwaru
+                                        <br> Kota Malang, Jawa Timur
+                                        <br> 65141
+                                    </li>
+                                </ul>
+                            </address>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <ul class="list-unstyled">
+                                <li>
+                                    No.Telepon (0341) 404515
+                                    <br> Buka Setiap hari
+                                    <br> 07.30-16.00
+                                    <br> HTM Gratis
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <a href="http://">
+                                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                            </a>
+                            <a href="http://">
+                                <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+                            </a>
+                            <a href="http://">
+                                <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./node_modules/popper.js/dist/umd/popper.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./node_modules/fullpage.js/vendors/scrolloverflow.js"></script>
+<script src="./node_modules/fullpage.js/dist/jquery.fullpage.min.js"></script>
+<script src="./node_modules/fullpage.js/vendors/jquery.easings.min.js"></script>
+<script src="./node_modules/fullpage.js/dist/jquery.fullpage.extensions.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+
+        // set fullpagejs
+        $('#fullpage').fullpage({
+            anchors: ['content', 'list'],
+            scrollOverflow: true,
+            responsiveWidth: 900,
+            responsiveSlides: true
+        });
+
+        // get url name
+        var url_string = window.location.href;
+        var url = new URL(url_string);
+
+        // place url name in variable
+        var value = url.searchParams.get("name");
+
+        // set content from url get name
+        if (value == "arca") {
+            $("#title").html("Arca");
+        } else if (value == "topeng") {
+            $("#title").html("Topeng");
+        } else if (value == "senjata") {
+            $("#title").html("Keris & Senjata");
+        }
+
+        // get data
+        $.ajax({
+            dataType: 'json',
+            url: './data/data.json',
+            success: function (data) {
+
+                // set empty variable to handle data
+                var dataCollection = [];
+
+                // foreach to show data
+                var i= 0;
+                $.each(data[value], function(key, val) {
+                    
+                    // console.log(val.nama);
+                    // dataCollection.push('<div class="slide" data-anchor="slide1"><div class= "content"><h1 id="title"></h1></div ><div class="container"><div class="row"><div class="col-md-8"><img id="img-slideMain" class="img-thumbnail" alt="" style="width:100%; height:630px"></div><div class="col-md-4"><div class="row"><div class="col-md-12" style="margin-bottom: 15px"><img src="'+val.img1+'" id="img-slide1" class="img-thumbnail" alt="" style="width:200px; height:200px"></div><div class="col-md-12" style="margin-bottom: 15px"><img src="'+val.img2+'" id="img-slide2" class="img-thumbnail" alt="" style="width:200px; height:200px"></div><div class="col-md-12" style="margin-bottom: 15px"><img src="'+val.img3+'" id="img-slide3" class="img-thumbnail" alt="" style="width:200px; height:200px"></div></div></div><div class="col-md-12"><div class="text-center"><h1>'+val.nama+'</h1></div><div class="text-center description"><ul class="list-unstyled"><li>Nama Benda : '+val.nama+'</li><li>Bahan : '+val.bahan+'</li><li>Ukuran : '+val.ukuran+'</li><li>Asal : '+val.asal+'</li></ul></div></div></br>div class="col-md-12" style="margin-bottom: 160px"><p class="description">'+val.deskripsi+'</p></div></div></div></div>');
+                    // $('#content').append('<div class="slide" data-anchor="'+val.id+'"><div class= "content'+i+'"><h1 id="title"></h1></div ><div class="container"><div class="row"><div class="col-md-8"><img id="img-slideMain" class="img-thumbnail" alt="" style="width:100%; height:630px"></div><div class="col-md-4"><div class="row"><div class="col-md-12" style="margin-bottom: 15px"><img src="' + val.img1 + '" id="img-slide1" class="img-thumbnail" alt="" style="width:200px; height:200px"></div><div class="col-md-12" style="margin-bottom: 15px"><img src="' + val.img2 + '" id="img-slide2" class="img-thumbnail" alt="" style="width:200px; height:200px"></div><div class="col-md-12" style="margin-bottom: 15px"><img src="' + val.img3 + '" id="img-slide3" class="img-thumbnail" alt="" style="width:200px; height:200px"></div></div></div><div class="col-md-12"><div class="text-center"><h1>' + val.nama + '</h1></div><div class="text-center description"><ul class="list-unstyled"><li>Nama Benda : ' + val.nama + '</li><li>Bahan : ' + val.bahan + '</li><li>Ukuran : ' + val.ukuran + '</li><li>Asal : ' + val.asal + '</li></ul></div></div></br>div class="col-md-12" style="margin-bottom: 160px"><p class="description">' + val.deskripsi + '</p></div></div></div></div>');
+                    $('#con-col').html('<div class="fp-tableCell" style="height: 544px;">Yolo</div >');
+                    i++;
+                });
+                // $.fn.fullpage.reBuild();
+            }
+        })
+
+        // set image slide
+        var defaultImage = $('#img-slide1').attr('src');
+        $('#img-slideMain').attr('src', defaultImage);
+
+        // button change image
+        $('#img-slide1').click(function () {
+            defaultImage = $('#img-slide1').attr('src');
+            $('#img-slideMain').attr('src', defaultImage);
+            console.log("1 klik");
+        });
+        $('#img-slide2').click(function () {
+            defaultImage = $('#img-slide2').attr('src');
+            $('#img-slideMain').attr('src', defaultImage);
+            console.log("2 klik")
+        });
+        $('#img-slide3').click(function () {
+            defaultImage = $('#img-slide3').attr('src');
+            $('#img-slideMain').attr('src', defaultImage);
+            console.log("3 klik");
+        });
+
+        setTimeout(function () {
+            $.fn.fullpage.reBuild();
+        }, 1000);
+
+        // $.fn.fullpage.reBuild();
+
+    });
+</script>
+
+</html>
