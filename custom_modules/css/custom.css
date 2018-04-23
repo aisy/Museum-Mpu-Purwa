@@ -8,6 +8,11 @@
     margin-bottom: 60px;
 }
 
+.content-collections {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .space{
     margin-bottom: 20px;
 }
@@ -43,7 +48,31 @@
     color: rgba(0, 35, 122, 0.7);
 }
 
+.section-fullpage {
+    text-align: center;
+    font-size: 3em;
+}
+
+.fp-controlArrow.fp-prev {
+    left: 15px;
+    width: 0;
+    border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent #444343 transparent transparent;
+}
+
+.fp-controlArrow.fp-next {
+    right: 15px;
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent transparent transparent #444343;
+}
+
+.description {
+    font-size: 0.5em;
+    padding: 0 5%;
+}
+
 footer {
+    margin-top: 3rem;
     color: white;
 }
 
@@ -82,6 +111,16 @@ footer a:hover {
      /* Safari 3-8 */
 
      transform: scale(1.1);
+}
+
+.remove-border-inline {
+    border: none;
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
 }
 
 
