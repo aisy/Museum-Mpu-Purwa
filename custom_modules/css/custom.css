@@ -113,6 +113,11 @@ footer a:hover {
      transform: scale(1.1);
 }
 
+.remove-border a{
+    text-decoration:none;
+    color: black;
+}
+
 .remove-border-inline {
     border: none;
 }
