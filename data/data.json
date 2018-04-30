@@ -1,8 +1,8 @@
 {
     "arca": [
         {
-            "nama": "Kuncup Teratai",
-            "id": "kuncupTeratai",
+            "nama": "Arca Tokoh Pertapa",
+            "id": "arcaTokohPertapa",
             "bahan": "Batu Andesit",
             "ukuran": "Tg. 39 cm, L. 34 cm",
             "asal": "Candi Badut",
@@ -28,9 +28,79 @@
             "bahan": "Batu Andesit",
             "ukuran": "Tg. 39 cm, L. 34 cm",
             "asal": "Candi Badut",
-            "img1": "../images/arca/bodhisatwa-majuseri.jpg.jpg",
-            "img2": "../images/arca/bodhisatwa-majuseri.jpg2.jpg",
-            "img3": "../images/arca/bodhisatwa-majuseri.jpg3.jpg",
+            "img1": "../images/arca/bodhisatwa-manjuseri.jpg",
+            "img2": "../images/arca/bodhisatwa-manjuseri2.jpg",
+            "img3": "../images/arca/bodhisatwa-manjuseri3.jpg",
+            "deskripsi": "Dolorem qui tempore quia ad voluptate ad. Repellat labore recusandae qui velit. Est enim occaecati eum dolor est aliquam optio. Blanditiis atque amet tempora voluptas voluptatem nam et. Odio molestiae aliquam voluptatem voluptas harum delectus consequatur."
+        }
+    ],
+    "topeng": [
+        {
+            "nama": "Topeng Bapang",
+            "id": "arcaTokohPertapa",
+            "bahan": "Batu Andesit",
+            "ukuran": "Tg. 39 cm, L. 34 cm",
+            "asal": "Candi Badut",
+            "img1": "../images/topeng/bapang.jpg",
+            "img2": "../images/topeng/bapang1.jpg",
+            "img3": "../images/topeng/bapang2.jpg",
+            "deskripsi": "Aspernatur provident minima qui dolores qui sed velit. Perspiciatis quis assumenda quam optio. Est enim corrupti ducimus. Vel vel ratione aperiam rerum. Voluptatibus veniam inventore laborum ex et vero. Id rerum eos. Labore debitis atque qui officiis et dolores ipsa rerum. Nulla ullam nihil nulla. Maxime cum omnis et. Voluptas quis itaque facere qui. Veniam cum expedita consequatur optio distinctio voluptas sit sequi id. Nisi ducimus et occaecati qui consequatur. Sed et repellat. Pariatur facilis quae inventore."
+        },
+        {
+            "nama": "Topeng Dewi Ragil Kuning",
+            "id": "batuGores",
+            "bahan": "Batu Andesit",
+            "ukuran": "Tg. 39 cm, L. 34 cm",
+            "asal": "Candi Badut",
+            "img1": "../images/topeng/dewi ragil kuning.jpg",
+            "img2": "../images/topeng/dewi ragil kuning2.jpg",
+            "img3": "../images/topeng/dewi ragil kuning3.jpg",
+            "deskripsi": "Eum cumque necessitatibus cupiditate incidunt dolorem sequi sequi eum. Placeat corrupti ut enim. Quo sequi vero omnis possimus harum magnam quidem quia. Iste incidunt similique accusamus accusantium. Cum laboriosam nihil modi voluptates beatae eos. Laboriosam esse id voluptatem sit culpa. Possimus voluptatum atque. Quam dolores eum cumque. Vel dolores facilis odio aliquid tempora ex. Assumenda dolor et. Tempora possimus provident quos a. Libero cumque odio. Ut impedit quis eum. Quos eaque consectetur est eligendi dolor."
+        },
+        {
+            "nama": "Topeng Dewi Sekartaji",
+            "id": "bodhisatwaMajuseri",
+            "bahan": "Batu Andesit",
+            "ukuran": "Tg. 39 cm, L. 34 cm",
+            "asal": "Candi Badut",
+            "img1": "../images/topeng/dewi sekartaji.jpg",
+            "img2": "../images/topeng/dewi sekartaji2.jpg",
+            "img3": "../images/topeng/dewi sekartaji3.jpg",
+            "deskripsi": "Dolorem qui tempore quia ad voluptate ad. Repellat labore recusandae qui velit. Est enim occaecati eum dolor est aliquam optio. Blanditiis atque amet tempora voluptas voluptatem nam et. Odio molestiae aliquam voluptatem voluptas harum delectus consequatur."
+        }
+    ],
+    "senjata": [
+        {
+            "nama": "Senjata Bedor I",
+            "id": "arcaTokohPertapa",
+            "bahan": "Batu Andesit",
+            "ukuran": "Tg. 39 cm, L. 34 cm",
+            "asal": "Candi Badut",
+            "img1": "../images/senjata/bedor I.jpg",
+            "img2": "../images/senjata/bedor I1.jpg",
+            "img3": "../images/senjata/bedor I2.jpg",
+            "deskripsi": "Aspernatur provident minima qui dolores qui sed velit. Perspiciatis quis assumenda quam optio. Est enim corrupti ducimus. Vel vel ratione aperiam rerum. Voluptatibus veniam inventore laborum ex et vero. Id rerum eos. Labore debitis atque qui officiis et dolores ipsa rerum. Nulla ullam nihil nulla. Maxime cum omnis et. Voluptas quis itaque facere qui. Veniam cum expedita consequatur optio distinctio voluptas sit sequi id. Nisi ducimus et occaecati qui consequatur. Sed et repellat. Pariatur facilis quae inventore."
+        },
+        {
+            "nama": "Senjata Bedor II",
+            "id": "batuGores",
+            "bahan": "Batu Andesit",
+            "ukuran": "Tg. 39 cm, L. 34 cm",
+            "asal": "Candi Badut",
+            "img1": "../images/senjata/bedor II.jpg",
+            "img2": "../images/senjata/bedor II2.jpg",
+            "img3": "../images/senjata/bedor II3.jpg",
+            "deskripsi": "Eum cumque necessitatibus cupiditate incidunt dolorem sequi sequi eum. Placeat corrupti ut enim. Quo sequi vero omnis possimus harum magnam quidem quia. Iste incidunt similique accusamus accusantium. Cum laboriosam nihil modi voluptates beatae eos. Laboriosam esse id voluptatem sit culpa. Possimus voluptatum atque. Quam dolores eum cumque. Vel dolores facilis odio aliquid tempora ex. Assumenda dolor et. Tempora possimus provident quos a. Libero cumque odio. Ut impedit quis eum. Quos eaque consectetur est eligendi dolor."
+        },
+        {
+            "nama": "Senjata Bethok Budha",
+            "id": "bodhisatwaMajuseri",
+            "bahan": "Batu Andesit",
+            "ukuran": "Tg. 39 cm, L. 34 cm",
+            "asal": "Candi Badut",
+            "img1": "../images/senjata/bethok budha.jpg",
+            "img2": "../images/senjata/bethok budha2.jpg",
+            "img3": "../images/senjata/bethok budha3.jpg",
             "deskripsi": "Dolorem qui tempore quia ad voluptate ad. Repellat labore recusandae qui velit. Est enim occaecati eum dolor est aliquam optio. Blanditiis atque amet tempora voluptas voluptatem nam et. Odio molestiae aliquam voluptatem voluptas harum delectus consequatur."
         }
     ]
