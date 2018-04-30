@@ -11,11 +11,15 @@ Peninggalan dari masa Hindu-Buddha berupa prasasti, arca, makara, antefix, kemun
 Peninggalan lainnya adalah arca Ganesha Tikus yang berasal dari Kerajaan Kediri. Arca Ganesha Tikus menjadi peninggalan teristimewa di museum ini dari benda-benda lainnya karena konon arca Ganesha ini hanya terdapat di Museum Mpu Purwa. Ada arca Siwa, Brahma, Durga, dan Bodhisatwa.
 
 
-# Instalasi
-Cukup download, dan letakkan dalam directory yang di inginkan, lalu buka file index.html, (done)
+## Instalasi
+- Cukup download, dan letakkan dalam directory yang di inginkan
+- install Google Chrome dan install Google chrome apps [Web Server Google](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en)
+- Buka Web server Google di menu Apps (bawah tombol back Google chrome)
+- Pilih Choose Folder dimana project di letakkan, Nyalakan server-nya (geser slide-nya), kemudian klik salah satu URL yang ada di bawah
+- Web berjalan (enjoy)
 
-# teknologi yang digunakan
+## Teknologi yang digunakan
 - Html5
 - CSS (Bootstrap 4, Font-awesome)
-- Javascript (Node, Jquery)
-
+- Javascript (Node, Jquery, Pooper.js, Fullpage.js)
+- Data Json
