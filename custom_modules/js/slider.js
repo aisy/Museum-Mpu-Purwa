@@ -22,57 +22,78 @@ $(document).ready(function () {
         url: './data/data.json',
         success: function (data) {
 
-            // set empty variable to handle data
-            var dataCollection = [];
-
             // foreach to show data
-            // var i=0;
+            var i = 0;
             $.each(data[value], function (key, val) {
-
-                // console.log(val.nama);
-                // dataCollection.push('<div class="slide" data-anchor="slide1"><div class= "content"><h1 id="title"></h1></div ><div class="container"><div class="row"><div class="col-md-8"><img id="img-slideMain" class="img-thumbnail" alt="" style="width:100%; height:630px"></div><div class="col-md-4"><div class="row"><div class="col-md-12" style="margin-bottom: 15px"><img src="'+val.img1+'" id="img-slide1" class="img-thumbnail" alt="" style="width:200px; height:200px"></div><div class="col-md-12" style="margin-bottom: 15px"><img src="'+val.img2+'" id="img-slide2" class="img-thumbnail" alt="" style="width:200px; height:200px"></div><div class="col-md-12" style="margin-bottom: 15px"><img src="'+val.img3+'" id="img-slide3" class="img-thumbnail" alt="" style="width:200px; height:200px"></div></div></div><div class="col-md-12"><div class="text-center"><h1>'+val.nama+'</h1></div><div class="text-center description"><ul class="list-unstyled"><li>Nama Benda : '+val.nama+'</li><li>Bahan : '+val.bahan+'</li><li>Ukuran : '+val.ukuran+'</li><li>Asal : '+val.asal+'</li></ul></div></div></br>div class="col-md-12" style="margin-bottom: 160px"><p class="description">'+val.deskripsi+'</p></div></div></div></div>');
-                // $('#content').html('<div class="slide" data-anchor="'+val.id+'"><div class= "content'+i+'"><h1 id="title"></h1></div ><div class="container"><div class="row"><div class="col-md-8"><img id="img-slideMain" class="img-thumbnail" alt="" style="width:100%; height:630px"></div><div class="col-md-4"><div class="row"><div class="col-md-12" style="margin-bottom: 15px"><img src="' + val.img1 + '" id="img-slide1" class="img-thumbnail" alt="" style="width:200px; height:200px"></div><div class="col-md-12" style="margin-bottom: 15px"><img src="' + val.img2 + '" id="img-slide2" class="img-thumbnail" alt="" style="width:200px; height:200px"></div><div class="col-md-12" style="margin-bottom: 15px"><img src="' + val.img3 + '" id="img-slide3" class="img-thumbnail" alt="" style="width:200px; height:200px"></div></div></div><div class="col-md-12"><div class="text-center"><h1>' + val.nama + '</h1></div><div class="text-center description"><ul class="list-unstyled"><li>Nama Benda : ' + val.nama + '</li><li>Bahan : ' + val.bahan + '</li><li>Ukuran : ' + val.ukuran + '</li><li>Asal : ' + val.asal + '</li></ul></div></div></br>div class="col-md-12" style="margin-bottom: 160px"><p class="description">' + val.deskripsi + '</p></div></div></div></div>');
-                $('#con-col').html('<div class="slider" data-anchor="slide' + val.nama + '" style="height: 544px;">Yolo</div >');
-                // $.fn.fullpage.destroy();
-                $('#result-all').append('<div class="col-md-4"><div class="card remove-border"><img class="card-img-top" src="' + val.img1 + '" alt=""><div class="card-body"><h4 class= "card-title text-center text-uppercase">'+val.nama+'</h4></div ></div></div>');
-                // i++;
+                handleSlider();
+                contentSlider();
+                
+                // $('#result-all').append('<div class="col-md-4"><div class="card remove-border"><img class="card-img-top" src="' + val.img1 + '" alt=""><div class="card-body"><h4 class= "card-title text-center text-uppercase">' + val.nama + '</h4></div ></div></div>');
+                
+                if (key == 0) {
+                    // $('#container').html('<div class="section box current"> <div class="slide" data-anchor="slide1"> <div class="container"> <div class="row"> <div class="col-md-8"> <img id="img-slideMain" class="img-thumbnail" alt="" style="width:100%; height:630px"> </div> <div class="col-md-4"> <div class="row"> <div class="col-md-12" style="margin-bottom: 15px"> <img src="' + val.img1 + '" id="img-slide1" class="img-thumbnail" alt="" style="width:200px; height:200px"> </div> <div class="col-md-12" style="margin-bottom: 15px"> <img src="' + val.img2 + '" id="img-slide2" class="img-thumbnail" alt="" style="width:200px; height:200px"> </div> <div class="col-md-12" style="margin-bottom: 15px"> <img src="' + val.img3 + '" id="img-slide3" class="img-thumbnail" alt="" style="width:200px; height:200px"> </div> </div> </div> <div class="col-md-12"> <div class="text-center"> <h2>' + val.nama + '</h2> </div> <div class="text-center description"> <ul class="list-unstyled"> <li>Nama Benda : ' + val.nama + '</li> <li>Bahan : ' + val.bahan + '</li> <li>Ukuran : ' + val.ukuran + '</li> <li>Asal : ' + val.asal + '</li> </ul> </div> </div> </br> <div class="col-md-12" style="margin-bottom: 160px"> <p class="description"> ' + val.deskripsi + ' </p> </div> </div> </div> </div></div>');
+                    $('#container').append('<div class="section box current">'+val.nama+'</div>');
+                }
+                // $('#container').append('<div class="section box">' + val.nama + '</div>');
+                $('#container').append('<div class="section box"> <div class="slide" data-anchor="slide1"> <div class="container"> <div class="row"> <div class="col-md-8"> <img id="img-slideMain" class="img-thumbnail" alt="" style="width:100%; height:630px"> </div> <div class="col-md-4"> <div class="row"> <div class="col-md-12" style="margin-bottom: 15px"> <img src="' + val.img1 + '" id="img-slide1" class="img-thumbnail" alt="" style="width:200px; height:200px"> </div> <div class="col-md-12" style="margin-bottom: 15px"> <img src="' + val.img2 + '" id="img-slide2" class="img-thumbnail" alt="" style="width:200px; height:200px"> </div> <div class="col-md-12" style="margin-bottom: 15px"> <img src="' + val.img3 + '" id="img-slide3" class="img-thumbnail" alt="" style="width:200px; height:200px"> </div> </div> </div> <div class="col-md-12"> <div class="text-center"> <h2>' + val.nama + '</h2> </div> <div class="text-center description"> <ul class="list-unstyled"> <li>Nama Benda : ' + val.nama + '</li> <li>Bahan : ' + val.bahan + '</li> <li>Ukuran : ' + val.ukuran + '</li> <li>Asal : ' + val.asal + '</li> </ul> </div> </div> </br> <div class="col-md-12" style="margin-bottom: 160px"> <p class="description"> ' + val.deskripsi + ' </p> </div> </div> </div> </div></div>')
+                i++;
             });
-            // $.fn.fullpage.reBuild();
 
         }
     })
 
-    // set image slide
-    var defaultImage = $('#img-slide1').attr('src');
-    $('#img-slideMain').attr('src', defaultImage);
+    function handleSlider() {
+        // set var to handle slider
+        $prev = $('#prev');
+        $next = $('#next');
+        update_links();
 
-    // button change image
-    $('#img-slide1').click(function () {
-        defaultImage = $('#img-slide1').attr('src');
-        $('#img-slideMain').attr('src', defaultImage);
-        console.log("1 klik");
-    });
-    $('#img-slide2').click(function () {
-        defaultImage = $('#img-slide2').attr('src');
-        $('#img-slideMain').attr('src', defaultImage);
-        console.log("2 klik")
-    });
-    $('#img-slide3').click(function () {
-        defaultImage = $('#img-slide3').attr('src');
-        $('#img-slideMain').attr('src', defaultImage);
-        console.log("3 klik");
-    });
+        // set navigator slider
+        $('#navigator a').click(function (e) {
+            var $current = $('.current');
+            var left = this.id === "next" ? "-250%" : "150%";
+            var $element_to_animate = this.id === "next" ? $current.next() : $current.prev();
 
-    setTimeout(function () {
-        $.fn.fullpage.reBuild();
-    }, 1000);
+            $current.stop().animate({
+                left: left
+            }, 500).removeClass('current');
 
-    // set fullpagejs
-    $('#fullpage').fullpage({
-        anchors: ['content', 'list'],
-        scrollOverflow: true,
-        responsiveWidth: 900,
-        responsiveSlides: true
-    });
+            $element_to_animate.stop().animate({
+                left: '25%'
+            }, 500).addClass('current');
+
+            update_links();
+            e.preventDefault();
+        });
+    }
+    
+    // create function link
+    function update_links() {
+        var $current = $('.current');
+        var show_or_hide_prev = $current.prev().length > 0;
+        var show_or_hide_next = $current.next().length > 0;
+
+        $prev.toggle(show_or_hide_prev);
+        $next.toggle(show_or_hide_next);
+    }
+
+    function contentSlider(params) {
+        var defaultImage = $('#img-slide1').attr('src');
+        $('#img-slideMain').attr('src', defaultImage);
+
+        // button change image
+        $('#img-slide1').click(function () {
+            defaultImage = $('#img-slide1').attr('src');
+            $('#img-slideMain').attr('src', defaultImage);
+        });
+        $('#img-slide2').click(function () {
+            defaultImage = $('#img-slide2').attr('src');
+            $('#img-slideMain').attr('src', defaultImage);
+        });
+        $('#img-slide3').click(function () {
+            defaultImage = $('#img-slide3').attr('src');
+            $('#img-slideMain').attr('src', defaultImage);
+        });
+    }
 
 });
