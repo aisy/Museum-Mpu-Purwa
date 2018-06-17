@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./custom_modules/css/custom.css">
+
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="./custom_modules/js/searchClick.js"></script>
+    <script src="./custom_modules/js/slider.js"></script>
+
+    <title>Museum Mpu Purwa</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Museum Mpu Purwa</a>
+        <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">Tentang Kami</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Koleksi</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="collection.html?name=arca">Arca</a>
+                        <a class="dropdown-item" href="collection.html?name=topeng">Topen Malang</a>
+                        <a class="dropdown-item" href="collection.html?name=senjata">Keris & Senjata Tajam</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kunjungi Kami</a>
+                </li>
+            </ul>
+            <div class="form-inline my-2 my-lg-0">
+                <input id="searchInput" class="form-control mr-sm-2" type="text" placeholder="Pencarian">
+                <button id="searchSubmit" class="btn btn-outline-success my-2 my-sm-0" type="submit">Cari</button>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- second slider -->
+    <div class="section">
+
+        <div class="container">
+
+            <div id="navigator">
+                <a href="#" id="prev">
+                    << Prev </a>
+                        <a href="#" id="next"> Next >> </a>
+            </div>
+
+            <div class="content">
+                <div class="page-header text-center">
+                    <h1 id="title"></h1>
+                </div>
+            </div>
+
+            <div id="container" class="container">
+                
+            </div>
+
+            <!-- other menu -->
+            <div class="section">
+                <div class="container">
+                    <!-- <div class="row" id="result-all"></div> -->
+                </div>
+            </div>
+            <div class="section" id="con-col"></div>
+        </div>
+    </div>
+
+    <!-- <footer>
+            <div class="footer-middle">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="footer-pad">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        Copyright Museum Mpu Purwa
+                                        <br> Link Terkait :
+                                        <br> Disbudpar Kota Malang
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            
+                            <div class="footer-pad">
+                                <address>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            Jl. Soekarno Hatta
+                                            <br> Perumahan Griya Santa
+                                            <br> Blk. B No.210, Mojolangu
+                                            <br> Kec. Lowokwaru
+                                            <br> Kota Malang, Jawa Timur
+                                            <br> 65141
+                                        </li>
+                                    </ul>
+                                </address>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="footer-pad">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        No.Telepon (0341) 404515
+                                        <br> Buka Setiap hari
+                                        <br> 07.30-16.00
+                                        <br> HTM Gratis
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="footer-pad">
+                                <a href="http://">
+                                    <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                                </a>
+                                <a href="http://">
+                                    <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+                                </a>
+                                <a href="http://">
+                                    <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer> -->
+
+</body>
+
+</html>
