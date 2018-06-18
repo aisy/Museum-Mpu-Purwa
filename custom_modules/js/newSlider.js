@@ -78,7 +78,7 @@ $(document).ready(function () {
 
     // init fullPage.js
     initFullpage();
-    initFullpageKunjungi();
+    // initFullpageKunjungi();
 
     // get data
     $.ajax({
@@ -113,7 +113,7 @@ $(document).ready(function () {
         $('#fullpage').fullpage({
             anchors: ['content', 'list'],
             scrollOverflow: true,
-            responsiveWidth: 1400,
+            responsiveWidth: 2900,
             responsiveSlides: true
         });
     }
