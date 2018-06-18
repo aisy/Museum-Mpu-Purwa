@@ -3,121 +3,121 @@
         {
             "nama": "Arca Tokoh Pertapa",
             "id": "arcaTokohPertapa",
-            "img": "../images/arca/arca-tokoh-pertapa.jpg",
+            "img": "./images/arca/arca-tokoh-pertapa.jpg",
             "link": ""
         },
         {
             "nama": "Batu Gores",
             "id": "batuGores",
-            "img": "../images/arca/batu-gores.jpg",
+            "img": "./images/arca/batu-gores.jpg",
             "link": ""
         },
         {
             "nama": "Bodhisatwa Manjuseri",
             "id": "bodhisatwaManjuseri",
-            "img": "../images/arca/bodhisatwa-manjuseri.jpg",
+            "img": "./images/arca/bodhisatwa-manjuseri.jpg",
             "link": ""
         },
         {
             "nama": "Bodhisatwa Manjuseri",
             "id": "bodhisatwa",
-            "img": "../images/arca/bodhisatwa.jpg",
+            "img": "./images/arca/bodhisatwa.jpg",
             "link": ""
         }, 
         {
             "nama": "Brahma",
             "id": "brahma",
-            "img": "../images/arca/brahma.jpg",
+            "img": "./images/arca/brahma.jpg",
             "link": ""
         }, 
         {
             "nama": "Budha Asokbhya",
             "id": "budhaAsokbhya",
-            "img": "../images/arca/budha-asokbhya1.jpg",
+            "img": "./images/arca/budha-asokbhya1.jpg",
             "link": ""
         },
         {
             "nama": "Dewi Kesuburan",
             "id": "dewiKesuburan",
-            "img": "../images/arca/dewi-kesuburan.jpg",
+            "img": "./images/arca/dewi-kesuburan.jpg",
             "link": ""
         }, 
         {
             "nama": "Dwarapala",
             "id": "dwarapala",
-            "img": "../images/arca/dwarapala.jpg",
+            "img": "./images/arca/dwarapala.jpg",
             "link": ""
         }, 
         {
             "nama": "Fragmen Garuda Wisnu",
             "id": "fragmentGarudaWisnu",
-            "img": "../images/arca/fragmen-garuda-wisnu.jpg",
+            "img": "./images/arca/fragmen-garuda-wisnu.jpg",
             "link": ""
         },
         {
             "nama": "Fragmen Kemuncak",
             "id": "fragmenKemuncak",
-            "img": "../images/arca/fragmen-kemuncak11.jpg",
+            "img": "./images/arca/fragmen-kemuncak11.jpg",
             "link": ""
         }, 
         {
             "nama": "Ganesya",
             "id": "ganesya",
-            "img": "../images/arca/ganesya.jpg",
+            "img": "./images/arca/ganesya.jpg",
             "link": ""
         }, 
         {
             "nama": "Ganesya Bunulrejo",
             "id": "ganesyaBunulrejo",
-            "img": "../images/arca/ganesya-bunulrejo.jpg",
+            "img": "./images/arca/ganesya-bunulrejo.jpg",
             "link": ""
         }, 
         {
             "nama": "Kuncup Teratai",
             "id": "kuncupTeratai",
-            "img": "../images/arca/kuncup-teratai.jpg",
+            "img": "./images/arca/kuncup-teratai.jpg",
             "link": ""
         },
         {
             "nama": "Lembu Nandi",
             "id": "lembuNandi",
-            "img": "../images/arca/lembu-nandi.jpg",
+            "img": "./images/arca/lembu-nandi.jpg",
             "link": ""
         }, 
         {
             "nama": "Makara",
             "id": "makara",
-            "img": "../images/arca/makara1.jpg",
+            "img": "./images/arca/makara1.jpg",
             "link": ""
         },
         {
             "nama": "Prasasti Dinoyo",
             "id": "prasastiDinoyo",
-            "img": "../images/arca/prasasti-dinoyo.jpg",
+            "img": "./images/arca/prasasti-dinoyo.jpg",
             "link": ""
         }, 
         {
             "nama": "Prasasti Muncang",
             "id": "prasastiMuncang",
-            "img": "../images/arca/prasasti-muncang.jpg",
+            "img": "./images/arca/prasasti-muncang.jpg",
             "link": ""
         }, 
         {
             "nama": "Trimurti Trisirah",
             "id": "trimutiTrisirah",
-            "img": "../images/arca/trimurti-trisirah-(1).jpg",
+            "img": "./images/arca/trimurti-trisirah-(1).jpg",
             "link": ""
         },
         {
             "nama": "Wisnu",
             "id": "wisnu",
-            "img": "../images/arca/wisnu.jpg",
+            "img": "./images/arca/wisnu.jpg",
             "link": ""
         }, 
         {
             "nama": "Yoni",
             "id": "yoni",
-            "img": "../images/arca/yoni.jpg",
+            "img": "./images/arca/yoni.jpg",
             "link": ""
         }
     ],
