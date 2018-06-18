@@ -125,86 +125,92 @@
         {
             "nama": "Bapang",
             "id": "bapang",
-            "img": "../images/topeng/bapang.jpg",
+            "img": "./images/topeng/bapang.jpg",
             "link": "http://museummpupurwa.com/topeng.html?name=topeng#content/bapang"
         },
         {
             "nama": "Dewi Ragil Kuning",
             "id": "dewiRagilKuning",
-            "img": "../images/topeng/dewi ragil kuning.jpg",
+            "img": "./images/topeng/dewi ragil kuning.jpg",
             "link": "http://museummpupurwa.com/topeng.html?name=topeng#content/Dewi%20ragil%20kuning"
         },
         {
             "nama": "Dewi Sekartaji",
             "id": "dewiSekartaji",
-            "img": "../images/topeng/dewi sekartaji.jpg",
+            "img": "./images/topeng/dewi sekartaji.jpg",
             "link": "http://museummpupurwa.com/topeng.html?name=topeng#content/dewi%20sekartaji"
         }, {
             "nama": "Gunung Sari",
             "id": "gunungSari",
-            "img": "../images/topeng/gunung sari.jpg",
+            "img": "./images/topeng/gunung sari.jpg",
             "link": "http://museummpupurwa.com/topeng.html?name=topeng#content/gunung%20sari"
         },
         {
             "nama": "Kelana Sewandana",
             "id": "kelanaSewandana",
-            "img": "../images/topeng/kelana sewandana.jpg",
+            "img": "./images/topeng/kelana sewandana.jpg",
             "link": "http://museummpupurwa.com/topeng.html?name=topeng#content/kelana%20sewandana"
         }, {
             "nama": "Panji Asmara Bangun",
             "id": "panjiAsmaraBangun",
-            "img": "../images/topeng/panji asmara bangun.jpg",
+            "img": "./images/topeng/panji asmara bangun.jpg",
             "link": "http://museummpupurwa.com/topeng.html?name=topeng#content/panji%20asmara%20bangun"
         },
         {
             "nama": "Patrajaya",
             "id": "patrajaya",
-            "img": "../images/topeng/patrajaya.jpg",
+            "img": "./images/topeng/patrajaya.jpg",
             "link": "http://museummpupurwa.com/topeng.html?name=topeng#content/patrajaya"
         }
     ],
     "senjata": [
         {
-            "nama": "Bapang",
-            "id": "bapang",
-            "img": "../images/topeng/bapang.jpg",
-            "link": "http://museummpupurwa.com/topeng.html?name=topeng#content/bapang"
+            "nama": "Bedor 1",
+            "id": "bedor1",
+            "img": "./images/senjata/bedor I.jpg",
+            "link": "http://museummpupurwa.com/senjata.html?name=senjata#content/bedor1"
         },
         {
-            "nama": "Dewi Ragil Kuning",
-            "id": "dewiRagilKuning",
-            "img": "../images/topeng/dewi ragil kuning.jpg",
-            "link": "http://museummpupurwa.com/topeng.html?name=topeng#content/Dewi%20ragil%20kuning"
+            "nama": "Bedor 2",
+            "id": "bedor2",
+            "img": "./images/senjata/bedor II.jpg",
+            "link": "http://museummpupurwa.com/senjata.html?name=senjata#content/bedor2"
         },
         {
-            "nama": "Dewi Sekartaji",
-            "id": "dewiSekartaji",
-            "img": "../images/topeng/dewi sekartaji.jpg",
-            "link": "http://museummpupurwa.com/topeng.html?name=topeng#content/dewi%20sekartaji"
+            "nama": "Bethok Budha",
+            "id": "bethokBudha",
+            "img": "./images/senjata/bethok budha.jpg",
+            "link": "http://museummpupurwa.com/senjata.html?name=senjata#content/bethokBudha"
         },
         {
-            "nama": "Gunung Sari",
-            "id": "gunungSari",
-            "img": "../images/topeng/gunung sari.jpg",
-            "link": "http://museummpupurwa.com/topeng.html?name=topeng#content/gunung%20sari"
+            "nama": "Cundrik",
+            "id": "cundrik",
+            "img": "./images/senjata/cundrik.jpg",
+            "link": "http://museummpupurwa.com/senjata.html?name=senjata#content/cundrik"
         },
         {
-            "nama": "Kelana Sewandana",
-            "id": "kelanaSewandana",
-            "img": "../images/topeng/kelana sewandana.jpg",
-            "link": "http://museummpupurwa.com/topeng.html?name=topeng#content/kelana%20sewandana"
+            "nama": "Dapur Sengkelat",
+            "id": "dapurSengkelat",
+            "img": "./images/senjata/dapur sengkelat.jpg",
+            "link": "http://museummpupurwa.com/senjata.html?name=senjata#content/dapurSengkelat"
         },
         {
-            "nama": "Panji Asmara Bangun",
-            "id": "panjiAsmaraBangun",
-            "img": "../images/topeng/panji asmara bangun.jpg",
-            "link": "http://museummpupurwa.com/topeng.html?name=topeng#content/panji%20asmara%20bangun"
+            "nama": "Kudi atau Caluk",
+            "id": "KudiAtauCaluk",
+            "img": "./images/senjata/kudi atau caluk.jpg",
+            "link": "http://museummpupurwa.com/senjata.html?name=senjata#content/panji%20asmara%20bangun"
         },
         {
-            "nama": "Patrajaya",
-            "id": "patrajaya",
-            "img": "../images/topeng/patrajaya.jpg",
-            "link": "http://museummpupurwa.com/topeng.html?name=topeng#content/patrajaya"
+            "nama": "Mandau",
+            "id": "mandau",
+            "img": "./images/senjata/mandau.jpg",
+            "link": "http://museummpupurwa.com/senjata.html?name=senjata#content/patrajaya"
+        },
+        {
+            "nama": "Suduk Maru",
+            "id": "sudukmaru",
+            "img": "./images/senjata/suduk maru.jpg",
+            "link": "http://museummpupurwa.com/senjata.html?name=senjata#content/patrajaya"
         }
     ]
 }
