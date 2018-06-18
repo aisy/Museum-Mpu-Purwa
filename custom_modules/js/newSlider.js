@@ -25,11 +25,11 @@ $('.dropdown').on("hidden.bs.dropdown", function () {
 // handle load title
 function title(value) {
     if (value == "arca") {
-        $(".title").html('<img src="http://museummpupurwa.com/images/sub%20judul/koleksi%20arca.png" class="in" alt="" srcset="" height="150px"><img src="http://museummpupurwa.com/images/sub%20judul/koleksi%20arca%201.png" class="en" alt="" srcset="" height="150px">');
+        $(".title").html('<img src="http://museummpupurwa.com/images/sub%20judul/koleksi%20arca.png" class="in" alt="" srcset="" height="150px"><img src="http://museummpupurwa.com/images/sub%20judul/koleksi%20arca%201.png" class="en" alt="" srcset="" height="150px" style="display:none">');
     } else if (value == "topeng") {
-        $(".title").html('<img src="http://museummpupurwa.com/images/sub%20judul/koleksi%20arca.png" class="in" alt="" srcset="" height="150px"><img src="http://museummpupurwa.com/images/sub%20judul/koleksi%20arca%201.png" class="en" alt="" srcset="" height="150px">');
+        $(".title").html('<img src="http://museummpupurwa.com/images/sub%20judul/topeng%20malang.png" class="in" alt="" srcset="" height="150px"><img src="http://museummpupurwa.com/images/sub%20judul/topeng%20malang%201.png" class="en" alt="" srcset="" height="150px" style="display:none">');
     } else if (value == "senjata") {
-        $(".title").html('<img src="http://museummpupurwa.com/images/sub%20judul/koleksi%20arca.png" class="in" alt="" srcset="" height="150px"><img src="http://museummpupurwa.com/images/sub%20judul/koleksi%20arca%201.png" class="en" alt="" srcset="" height="150px">');
+        $(".title").html('<img src="http://museummpupurwa.com/images/sub%20judul/keris%20dan%20senjata%20tjm.png" class="in" alt="" srcset="" height="150px"><img src="http://museummpupurwa.com/images/sub%20judul/keris%20dan%20senjata%20tjm%201.png" class="en" alt="" srcset="" height="150px" style="display:none">');
     }
 }
 
@@ -86,7 +86,7 @@ $(document).ready(function () {
         url: './data/data.json',
         success: function (data) {
             $.each(data[value], function (key, val) {
-                $('#result-all').append('<a href="'+val.link+'"><div class="col-md-4"><div class="card remove-border"><img class="card-img-top" src="' + val.img + '" alt=""><div class="card-body"><h4 class= "card-title text-center text-uppercase">' + val.nama + '</h4></div ></div></div></a>');
+                $('#result-all').append('<div class="col-md-4"><a href="'+val.link+'"><div class="card remove-border"><img class="card-img-top" src="' + val.img + '" alt=""><div class="card-body"><h4 class= "card-title text-center text-uppercase">' + val.nama + '</h4></div ></div></a></div>');
             });
         }
     })
