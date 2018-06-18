@@ -4,43 +4,43 @@
             "nama": "Arca Tokoh Pertapa",
             "id": "arcaTokohPertapa",
             "img": "./images/arca/arca-tokoh-pertapa.jpg",
-            "link": ""
+            "link": "http://museummpupurwa.com/arca.html?name=arca#content/Arca%20Tokoh%20Pertapa"
         },
         {
             "nama": "Batu Gores",
             "id": "batuGores",
             "img": "./images/arca/batu-gores.jpg",
-            "link": ""
+            "link": "http://museummpupurwa.com/arca.html?name=arca#content/Batu%20Gores"
         },
         {
-            "nama": "Bodhisatwa Manjuseri",
-            "id": "bodhisatwaManjuseri",
-            "img": "./images/arca/bodhisatwa-manjuseri.jpg",
-            "link": ""
-        },
-        {
-            "nama": "Bodhisatwa Manjuseri",
+            "nama": "Bodhisatwa",
             "id": "bodhisatwa",
+            "img": "./images/arca/bodhisatwa-manjuseri.jpg",
+            "link": "http://museummpupurwa.com/arca.html?name=arca#content/Bodhisatwa%20Manjusri"
+        },
+        {
+            "nama": "Bodhisatwa Manjuseri",
+            "id": "bodhisatwawaManjuseri",
             "img": "./images/arca/bodhisatwa.jpg",
-            "link": ""
+            "link": "http://museummpupurwa.com/arca.html?name=arca#content/Bodhisatwa"
         }, 
         {
             "nama": "Brahma",
             "id": "brahma",
             "img": "./images/arca/brahma.jpg",
-            "link": ""
+            "link": "http://museummpupurwa.com/arca.html?name=arca#content/Brahma"
         }, 
         {
             "nama": "Budha Asokbhya",
             "id": "budhaAsokbhya",
             "img": "./images/arca/budha-asokbhya1.jpg",
-            "link": ""
+            "link": "http://museummpupurwa.com/arca.html?name=arca#content/Budha%20Aksokbhya"
         },
         {
             "nama": "Dewi Kesuburan",
             "id": "dewiKesuburan",
             "img": "./images/arca/dewi-kesuburan.jpg",
-            "link": ""
+            "link": "http://museummpupurwa.com/arca.html?name=arca#content/Dewi%20Kesuburan%20Sri/Laksmi"
         }, 
         {
             "nama": "Dwarapala",
@@ -52,73 +52,73 @@
             "nama": "Fragmen Garuda Wisnu",
             "id": "fragmentGarudaWisnu",
             "img": "./images/arca/fragmen-garuda-wisnu.jpg",
-            "link": ""
+            "link": "http://museummpupurwa.com/arca.html?name=arca#content/Fragmen%20Kemuncak%20Candi"
         },
         {
             "nama": "Fragmen Kemuncak",
             "id": "fragmenKemuncak",
             "img": "./images/arca/fragmen-kemuncak11.jpg",
-            "link": ""
+            "link": "http://museummpupurwa.com/arca.html?name=arca#content/Fragmen%20Garuda%20Wisnu"
         }, 
         {
             "nama": "Ganesya",
             "id": "ganesya",
             "img": "./images/arca/ganesya.jpg",
-            "link": ""
+            "link": "http://museummpupurwa.com/arca.html?name=arca#content/Ganesya"
         }, 
         {
             "nama": "Ganesya Bunulrejo",
             "id": "ganesyaBunulrejo",
             "img": "./images/arca/ganesya-bunulrejo.jpg",
-            "link": ""
+            "link": "http://museummpupurwa.com/arca.html?name=arca#content/Ganesya%20Bunulrejo"
         }, 
         {
             "nama": "Kuncup Teratai",
             "id": "kuncupTeratai",
             "img": "./images/arca/kuncup-teratai.jpg",
-            "link": ""
+            "link": "http://museummpupurwa.com/arca.html?name=arca#content/Kuncup%20Teratai"
         },
         {
             "nama": "Lembu Nandi",
             "id": "lembuNandi",
             "img": "./images/arca/lembu-nandi.jpg",
-            "link": ""
+            "link": "http://museummpupurwa.com/arca.html?name=arca#content/Lembu%20Nandi"
         }, 
         {
             "nama": "Makara",
             "id": "makara",
             "img": "./images/arca/makara1.jpg",
-            "link": ""
+            "link": "http://museummpupurwa.com/arca.html?name=arca#content/Makara"
         },
         {
-            "nama": "Prasasti Dinoyo",
+            "nama": "Prasasti Dinoyo 2",
             "id": "prasastiDinoyo",
             "img": "./images/arca/prasasti-dinoyo.jpg",
-            "link": ""
+            "link": "http://museummpupurwa.com/arca.html?name=arca#content/Prasasti%20Dinoyo%202"
         }, 
         {
             "nama": "Prasasti Muncang",
             "id": "prasastiMuncang",
             "img": "./images/arca/prasasti-muncang.jpg",
-            "link": ""
+            "link": "http://museummpupurwa.com/arca.html?name=arca#content/Prasati%20Muncang"
         }, 
         {
             "nama": "Trimurti Trisirah",
             "id": "trimutiTrisirah",
             "img": "./images/arca/trimurti-trisirah-(1).jpg",
-            "link": ""
+            "link": "http://museummpupurwa.com/arca.html?name=arca#content/Trimurti/Trisirah"
         },
         {
             "nama": "Wisnu",
             "id": "wisnu",
             "img": "./images/arca/wisnu.jpg",
-            "link": ""
+            "link": "http://museummpupurwa.com/arca.html?name=arca#content/Wisnu"
         }, 
         {
             "nama": "Yoni",
             "id": "yoni",
             "img": "./images/arca/yoni.jpg",
-            "link": ""
+            "link": "http://museummpupurwa.com/arca.html?name=arca#content/Yoni"
         }
     ],
     "topeng": [
