@@ -113,7 +113,7 @@ $(document).ready(function () {
         $('#fullpage').fullpage({
             anchors: ['content', 'list'],
             scrollOverflow: true,
-            responsiveWidth: 2900,
+            responsiveWidth: true,
             responsiveSlides: true
         });
     }
