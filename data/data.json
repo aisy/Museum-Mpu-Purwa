@@ -52,13 +52,13 @@
             "nama": "Fragmen Garuda Wisnu",
             "id": "fragmentGarudaWisnu",
             "img": "./images/arca/fragmen-garuda-wisnu.jpg",
-            "link": "http://museummpupurwa.com/arca.html?name=arca#content/Fragmen%20Kemuncak%20Candi"
+            "link": "http://museummpupurwa.com/arca.html?name=arca#content/Fragmen%20Garuda%20Wisnu"
         },
         {
             "nama": "Fragmen Kemuncak",
             "id": "fragmenKemuncak",
             "img": "./images/arca/fragmen-kemuncak11.jpg",
-            "link": "http://museummpupurwa.com/arca.html?name=arca#content/Fragmen%20Garuda%20Wisnu"
+            "link": "http://museummpupurwa.com/arca.html?name=arca#content/Fragmen%20Kemuncak%20Candi"
         }, 
         {
             "nama": "Ganesya",
